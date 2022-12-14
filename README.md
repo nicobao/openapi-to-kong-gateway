@@ -65,7 +65,7 @@ The process is as follow:
 - validate it's correctly formed
 - run tests on it
 - transform it into a Kong Descriptive YML document (services and routes objects description). The mapping is described [here](https://www.npmjs.com/package/openapi-2-kong?activeTab=readme) (refresh the page if the readme doesn't pop up). There are some particularities, especially when it comes to auth.
--
+- use `deck` to load this descriptive document to Kong in a way that's not overriding unrelated existing Kong Objects (using tags)
 
 ## Resources
 
