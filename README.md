@@ -60,7 +60,7 @@ You will see that it has not overriden the petstore endpoints. That's because of
 
 ## Some explanations
 
-The process is as follow:
+The process is as follows:
 - create an openapi yml document
 - validate it's correctly formed
 - run tests on it
