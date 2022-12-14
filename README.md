@@ -64,7 +64,7 @@ The process is as follow:
 - create an openapi yml document
 - validate it's correctly formed
 - run tests on it
-- transform it into a Kong Descriptive YML document. What is does is basically parsing the openapi files and transforming it to a document that Kong speaks which means service and route objects descriptions. The mapping is described [here](https://www.npmjs.com/package/openapi-2-kong?activeTab=readme) (refresh the page if the readme doesn't pop up), there are some particularities, especially when it comes to auth.
+- transform it into a Kong Descriptive YML document (services and routes objects description). The mapping is described [here](https://www.npmjs.com/package/openapi-2-kong?activeTab=readme) (refresh the page if the readme doesn't pop up). There are some particularities, especially when it comes to auth.
 -
 
 ## Resources
