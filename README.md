@@ -1,6 +1,6 @@
 # Test OpenAPI + Kong
 
-Originally forked from https://github.com/svenwal/kong-user-call-2022-07/blob/main/OpenAPI/from-openapi-to-kong.sh
+Originally forked from https://github.com/svenwal/kong-user-call-2022-07/
 
 ## pre-requisites
 
