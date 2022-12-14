@@ -56,7 +56,7 @@ Verify that it has been added by running:
 - `curl -s -X GET http://localhost:8001/routes | jq` 
 - `curl -s -X GET http://localhost:8001/services | jq`
 
-You will see that it has not overriden the petstore endpoints. That's because of the `--select-tags` in `deck sync`. Be careful because without that `sync` will delete all the routes and services that are not in the provided descriptive `.yml` file.
+You will see that it has not overriden the petstore endpoints. That's because of the `--select-tags` in `deck sync`. Be careful because without the tags config, `sync` will delete all the routes and services that are not in the provided descriptive `.yml` file.
 
 ## Some explanations
 
